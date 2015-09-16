@@ -3,7 +3,7 @@
 ## Objectives
 
 - Get a high level introduction to MVC in Rails
-- Be able to CRUD in Rails without using scaffolds
+- Be able to CRUD in Rails without using `rails scaffold`
 - Be able to hand roll a Rails route
 - Be able to generate routes using `resources`
 - Be able to write out all 7 RESTful routes
@@ -98,9 +98,13 @@ The important bits of code from today:
 * `rails new <appname>`
 * `bundle install` or (`bundle`)
 * `rails server	` or (`rails s`)
+* `rake db:create`
+* `rake db:migrate`
+* `rake db:rollback`
 * `get 'welcome' => 'welcome#index'`
+* `resources <name-of-resource>`
 * `rake routes`
-* `rails g migration do_some_thing`
+* `rails g migration create_something`
 * `<%= form_for @something do |f| %>`
 * `<%= link_to "View Projects", projects_path %>`
 * `rails console` or (`rails c`)
